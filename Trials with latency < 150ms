@@ -1,0 +1,8 @@
+subject    group   trialcode correct latency    gun  ethn values.result
+4721      267   Police    GunBlack       0      99    Gun  Arab          Miss
+4822      268   Police    GunWhite       0      29    Gun White          Miss
+5007      270   Police    GunBlack       0     117    Gun  Arab          Miss
+5011      270   Police    GunWhite       0      36    Gun White          Miss
+5033      270   Police ObjectWhite       1      66 Object White            CR
+5042      271   Police    GunBlack       0      22    Gun  Arab          Miss
+15688    1070 Civilian    GunBlack       0      62    Gun  Arab          Miss
