@@ -36,8 +36,7 @@ ag_data <- subset(df, ethn == "White")
 ag_data <- subset(ag_data, group == "Police")
 ag_data <- subset(ag_data, values.result != "Noresponse") # exclude noresponses
 #ag_data <- subset(ag_data, subject < 260 ) # there seems to be a problem at 267 for arab and 269 for white - probably because auf very low latency (<100) ?
-df <- subset(df, latency < 150 ) # there seems to be a problem at 267 for arab and 269 for white - probably because auf very low latency (<100) ?
-
+# df <- subset(df, latency < 150 )
 ag_data <- subset(ag_data, latency > 150 ) # exclude ?
 
 
