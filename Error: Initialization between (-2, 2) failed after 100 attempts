@@ -1,0 +1,320 @@
+Error when executing: 
+
+>ddm_model <- stan(file = "DDM_2dv2.stan" , data = dat, chains = 1, cores = 12, iter = 2000)       
+
+(1 chain for debug, 12.3.2024)
+```
+
+SAMPLING FOR MODEL 'anon_model' NOW (CHAIN 1).
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.477, but must be greater than nondecision time = 0.533274 (in 'string', line 19, column 12 to column 85) (in 'string', line 19, column 12 to column 85)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 6.18622 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.029, but must be greater than nondecision time = 0.151071 (in 'string', line 22, column 12 to column 90) (in 'string', line 22, column 12 to column 90)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.029, but must be greater than nondecision time = 0.243537 (in 'string', line 22, column 12 to column 90) (in 'string', line 22, column 12 to column 90)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.42, but must be greater than nondecision time = 0.466623 (in 'string', line 8, column 12 to column 88) (in 'string', line 8, column 12 to column 88)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.029, but must be greater than nondecision time = 0.260517 (in 'string', line 22, column 12 to column 90) (in 'string', line 22, column 12 to column 90)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 1.53629 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 4.66726 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 4.12115 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 1.46387 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 0.963931 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 0.622249 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.477, but must be greater than nondecision time = 0.5382 (in 'string', line 19, column 12 to column 85) (in 'string', line 19, column 12 to column 85)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.029, but must be greater than nondecision time = 0.147474 (in 'string', line 22, column 12 to column 90) (in 'string', line 22, column 12 to column 90)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 2.31664 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.029, but must be greater than nondecision time = 0.203721 (in 'string', line 22, column 12 to column 90) (in 'string', line 22, column 12 to column 90)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.029, but must be greater than nondecision time = 0.260748 (in 'string', line 22, column 12 to column 90) (in 'string', line 22, column 12 to column 90)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.029, but must be greater than nondecision time = 0.265702 (in 'string', line 22, column 12 to column 90) (in 'string', line 22, column 12 to column 90)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.029, but must be greater than nondecision time = 0.305816 (in 'string', line 22, column 12 to column 90) (in 'string', line 22, column 12 to column 90)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 0.692836 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 1.58807 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 0.689784 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.029, but must be greater than nondecision time = 0.222409 (in 'string', line 22, column 12 to column 90) (in 'string', line 22, column 12 to column 90)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.477, but must be greater than nondecision time = 0.481043 (in 'string', line 19, column 12 to column 85) (in 'string', line 19, column 12 to column 85)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.029, but must be greater than nondecision time = 0.140351 (in 'string', line 22, column 12 to column 90) (in 'string', line 22, column 12 to column 90)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.029, but must be greater than nondecision time = 0.144016 (in 'string', line 22, column 12 to column 90) (in 'string', line 22, column 12 to column 90)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.42, but must be greater than nondecision time = 0.448933 (in 'string', line 8, column 12 to column 88) (in 'string', line 8, column 12 to column 88)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 1.92006 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 1.35629 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.386, but must be greater than nondecision time = 0.394331 (in 'string', line 8, column 12 to column 88) (in 'string', line 8, column 12 to column 88)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.029, but must be greater than nondecision time = 0.166571 (in 'string', line 22, column 12 to column 90) (in 'string', line 22, column 12 to column 90)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 2.24067 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 3.77184 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.477, but must be greater than nondecision time = 0.508284 (in 'string', line 19, column 12 to column 85) (in 'string', line 19, column 12 to column 85)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 2.92117 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.42, but must be greater than nondecision time = 0.425489 (in 'string', line 8, column 12 to column 88) (in 'string', line 8, column 12 to column 88)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.029, but must be greater than nondecision time = 0.240721 (in 'string', line 22, column 12 to column 90) (in 'string', line 22, column 12 to column 90)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.029, but must be greater than nondecision time = 0.248947 (in 'string', line 22, column 12 to column 90) (in 'string', line 22, column 12 to column 90)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 2.91125 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.42, but must be greater than nondecision time = 0.455288 (in 'string', line 8, column 12 to column 88) (in 'string', line 8, column 12 to column 88)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.362, but must be greater than nondecision time = 0.371971 (in 'string', line 19, column 12 to column 85) (in 'string', line 19, column 12 to column 85)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 1.92463 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 0.88387 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.029, but must be greater than nondecision time = 0.168453 (in 'string', line 22, column 12 to column 90) (in 'string', line 22, column 12 to column 90)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 0.985918 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 0.637202 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 0.974679 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 4.70832 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 1.00908 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 0.953111 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 4.03257 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 3.04135 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 4.8997 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.029, but must be greater than nondecision time = 0.328843 (in 'string', line 22, column 12 to column 90) (in 'string', line 22, column 12 to column 90)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 0.954083 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.029, but must be greater than nondecision time = 0.217309 (in 'string', line 22, column 12 to column 90) (in 'string', line 22, column 12 to column 90)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.029, but must be greater than nondecision time = 0.349024 (in 'string', line 22, column 12 to column 90) (in 'string', line 22, column 12 to column 90)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.029, but must be greater than nondecision time = 0.196862 (in 'string', line 22, column 12 to column 90) (in 'string', line 22, column 12 to column 90)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.42, but must be greater than nondecision time = 0.466667 (in 'string', line 8, column 12 to column 88) (in 'string', line 8, column 12 to column 88)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.029, but must be greater than nondecision time = 0.346143 (in 'string', line 22, column 12 to column 90) (in 'string', line 22, column 12 to column 90)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 5.5281 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 3.28283 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 3.30063 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 0.66561 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 1.03197 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.029, but must be greater than nondecision time = 0.171633 (in 'string', line 22, column 12 to column 90) (in 'string', line 22, column 12 to column 90)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.386, but must be greater than nondecision time = 0.419619 (in 'string', line 8, column 12 to column 88) (in 'string', line 8, column 12 to column 88)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.029, but must be greater than nondecision time = 0.150224 (in 'string', line 22, column 12 to column 90) (in 'string', line 22, column 12 to column 90)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 6.83386 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 1.51998 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.029, but must be greater than nondecision time = 0.172993 (in 'string', line 22, column 12 to column 90) (in 'string', line 22, column 12 to column 90)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 0.833213 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 2.06451 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.029, but must be greater than nondecision time = 0.173684 (in 'string', line 22, column 12 to column 90) (in 'string', line 22, column 12 to column 90)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 2.35744 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 5.45249 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.477, but must be greater than nondecision time = 0.511055 (in 'string', line 19, column 12 to column 85) (in 'string', line 19, column 12 to column 85)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 1.26052 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 1.09344 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.477, but must be greater than nondecision time = 0.558901 (in 'string', line 19, column 12 to column 85) (in 'string', line 19, column 12 to column 85)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 3.09382 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 0.832068 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 1.16748 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 1.19247 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 1.03909 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.029, but must be greater than nondecision time = 0.216818 (in 'string', line 22, column 12 to column 90) (in 'string', line 22, column 12 to column 90)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.42, but must be greater than nondecision time = 0.470881 (in 'string', line 8, column 12 to column 88) (in 'string', line 8, column 12 to column 88)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.029, but must be greater than nondecision time = 0.163075 (in 'string', line 22, column 12 to column 90) (in 'string', line 22, column 12 to column 90)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.477, but must be greater than nondecision time = 0.508664 (in 'string', line 19, column 12 to column 85) (in 'string', line 19, column 12 to column 85)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 0.930501 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.029, but must be greater than nondecision time = 0.153683 (in 'string', line 22, column 12 to column 90) (in 'string', line 22, column 12 to column 90)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 2.76284 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 1.16084 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 2.5466 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 2.61959 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 1.93831 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 1.73737 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 5.05483 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.576, but must be greater than nondecision time = 7.12677 (in 'string', line 11, column 12 to column 93) (in 'string', line 11, column 12 to column 93)
+Chain 1: Rejecting initial value:
+Chain 1:   Error evaluating the log probability at the initial value.
+Chain 1: Exception: Exception: wiener_lpdf: Random variable  = 0.029, but must be greater than nondecision time = 0.154901 (in 'string', line 22, column 12 to column 90) (in 'string', line 22, column 12 to column 90)
+Chain 1: 
+Chain 1: Initialization between (-2, 2) failed after 100 attempts. 
+Chain 1:  Try specifying initial values, reducing ranges of constrained values, or reparameterizing the model.
+[1] "Error in sampler$call_sampler(args_list[[i]]) : Initialization failed."
+[1] "error occurred during calling the sampler; sampling not done"
+> 
+> summary(ddm_model)$summary
+Stan model 'anon_model' does not contain samples.
+NULL
+> stan_dens(ddm_model)
+Error: Stan model 'anon_model' does not contain samples.
+```
